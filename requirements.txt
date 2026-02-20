@@ -42,3 +42,7 @@ git+https://github.com/alexmercerind/youtube-search-python@main
 git+https://github.com/joetats/youtube_search@master
 bing-image-urls
 Cloudscraper
+youtube-search
+youtube-search-python
+py-yt-search
+yt-dlp
