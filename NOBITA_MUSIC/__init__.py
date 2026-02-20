@@ -4,7 +4,8 @@ from NOBITA_MUSIC.core.git import git
 from NOBITA_MUSIC.core.userbot import Userbot
 from NOBITA_MUSIC.misc import dbb, heroku
 
-from SafoneAPI import SafoneAPI
+# from SafoneAPI import SafoneAPI   # ❌ Removed (Causing crash)
+
 from .logging import LOGGER
 
 dirr()
@@ -13,9 +14,8 @@ dbb()
 heroku()
 
 app = NOBITA()
-api = SafoneAPI()
+# api = SafoneAPI()   # ❌ Removed
 userbot = Userbot()
-
 
 from .platforms import *
 
